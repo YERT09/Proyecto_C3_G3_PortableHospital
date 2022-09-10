@@ -2,8 +2,7 @@
 <html lang="=en">
     <head>
         <meta charset="UTF-8">
-        <title>Consultas</title>
-<script src="js/consultaScript.js"></script>
+        <title>PortableHospital</title>
     </head>
     <body>
         <header>
@@ -11,36 +10,16 @@
             <p>Doctor Tenma</p>
         </header>
         <nav>
+		<h2>Formularios</h2>
+		<p>Para acceder a un formulario debe poner la siguiente url: http://132.145.138.107:8080/PortableHospital2/</p>
+		<p>Y agregarle al final un formulario de esta lista que desee cargar:
             <ul>
-                <li>Consullta</li>
-                <li>Autorizaciones</li>
-                <li>Historia Clinica</li>
-                <li>Agenda</li>
+                <li>consullta.html</li>
+                <li>medico.html</li>
+                <li>cita.html</li>
 
             </ul>
         </nav>
-        <section>
-            <p>Home</p>
-            <p>/</p>
-            <p>Consulta</p>
-            <article>
-                <form onsubmit="guardarConsulta()">
-                    <label>Motivo</label>
-                    <input id="motivo" type="text"/>
-
-                    <label>Enfermedad Actual</label>
-                    <input id="enfermedadActual" type="text"/>
-
-                    <label>Anamnesis</label>
-                    <input id="anamnesis" type="text"/>
-
-                    <label>Diagnostico</label>
-                    <input id="diagnostico" type="text"/>
-
-                    <button type="submit">Enviar consulta</button>
-                </form>
-
-            </article>
-        </section>
+        
     </body>
 </html>
