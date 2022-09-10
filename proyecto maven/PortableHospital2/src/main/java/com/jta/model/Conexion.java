@@ -16,7 +16,7 @@ public class Conexion {
     // Declaramos los datos de conexion a la bd
     private static final String driver="com.mysql.jdbc.Driver";
     private static final String user="root";
-    private static final String pass="kamarex2002";
+    private static final String pass="12345";
     public static final String bd="portablehospital";
     private static final String url="jdbc:mysql://localhost:3306/"+bd+"?enabledTLSProtocols=TLSv1.2&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
