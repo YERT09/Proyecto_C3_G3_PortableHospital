@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="=en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cita</title>
+<script src="js/citaScript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>PortableHospital</h1>
+            <p>Admin</p>
+        </header>
+        <nav>
+            <ul>
+                <li>Medico</li>
+                <li>Citas</li>
+
+            </ul>
+        </nav>
+        <section>
+            <p>Home</p>
+            <p>/</p>
+            <p>Cita</p>
+            <article>
+                <form onsubmit="guardarCita(event)">
+                    <label>Fecha y hora</label>
+                    <input id="fecha" type="datetime"/>
+
+                    <label>Cedula del paciente</label>
+                    <input id="cedulaPersona" type="text"/>
+
+                    <label>Tarjeta Profesional Del Medico</label>
+                    <input id="tarjetaProfesional" type="text"/>
+
+                    <button type="submit">Crear Cita</button>
+                </form>
+
+            </article>
+        </section>
+    </body>
+</html>

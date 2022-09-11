@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="=en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Medico</title>
+<script src="js/medicoScript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>PortableHospital</h1>
+            <p>Admin</p>
+        </header>
+        <nav>
+            <ul>
+                <li>Medico</li>
+                <li>Citas</li>
+
+            </ul>
+        </nav>
+        <section>
+            <p>Home</p>
+            <p>/</p>
+            <p>Medico</p>
+            <article>
+                <form onsubmit="guardarMedico(event)">
+                    <label>Tarjeta Profesional</label>
+                    <input id="tarjetaProfesional" type="text"/>
+
+                    <label>Especialidad</label>
+                    <input id="especialidad" type="text"/>
+
+                    <label>Salario</label>
+                    <input id="salario" type="number"/>
+
+                    <label>Cedula</label>
+                    <input id="Persona_cedula" type="text"/>
+
+                    <button type="submit">Crear Medico</button>
+                </form>
+
+            </article>
+        </section>
+    </body>
+</html>
